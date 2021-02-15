@@ -9,17 +9,18 @@ Munkája ellenőrzéseként használja a következő kódot:
 ```
 Student studentJhon = new Student("Jeles János", 3);
 Console.WriteLine(studentJhon);
-studentJhon.completesStudentTheClass();
+studentJhon.CompletesStudentTheClass();
 Console.WriteLine(studentJhon);
-studentJhon.completesStudentTheClass();
+studentJhon.CompletesStudentTheClass();
 Console.WriteLine(studentJhon);
 
 Student studentPeter = new Student("Példás Péter", 7);
 Console.WriteLine(studentPeter);
-studentPeter.completesStudentTheClass();
+studentPeter.CompletesStudentTheClass();
 Console.WriteLine(studentPeter);
-studentPeter.completesStudentTheClass();
+studentPeter.CompletesStudentTheClass();
 Console.WriteLine(studentPeter);
+
 ```
 A kód kimenete a következő kell legyen:     
 Jeles János 3. osztályos tanuló. Alsó tagozatra jár.    
