@@ -8,18 +8,18 @@ A fejlesztő csapat munkája után elkészült az osztály UML diagramja. Ön az
 Munkája ellenőrzéseként használja a következő kódot:   
 ```
 Student studentJhon = new Student("Jeles János", 3);
-Console.WriteLine(studentJhon);
+studentJhon.ToConsole();
 studentJhon.CompletesStudentTheClass();
-Console.WriteLine(studentJhon);
+studentJhon.ToConsole();
 studentJhon.CompletesStudentTheClass();
-Console.WriteLine(studentJhon);
+studentJhon.ToConsole();
 
 Student studentPeter = new Student("Példás Péter", 7);
-Console.WriteLine(studentPeter);
+studentPeter.ToConsole();
 studentPeter.CompletesStudentTheClass();
-Console.WriteLine(studentPeter);
+studentPeter.ToConsole();
 studentPeter.CompletesStudentTheClass();
-Console.WriteLine(studentPeter);
+studentPeter.ToConsole();
 
 ```
 A kód kimenete a következő kell legyen:     
