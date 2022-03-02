@@ -2,6 +2,7 @@
 ## StudentProject
 Iskolába járó diák elvégez egy osztályt. Egy ilyen feladat programozása a cél egy Digitális napló projektben. A fejlesztő csapat munkája után elkészült az osztály UML diagramja. Ön azt a feladatot kapta, hogy fejlessze ki az osztályt!
 
+Student classban a konstruktor feltétel: ha a diák létreozásánál 1-nél kisebb vagy 12-nél nagyobb osztályt adunk meg akko a diák legyen elsős.
 
 ![alt text](https://github.com/csarp-dotnet-core-oop-feladatok/01-03-02-gyak/blob/main/StudentClass.png "UML diagram")   
 
